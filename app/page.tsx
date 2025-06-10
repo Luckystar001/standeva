@@ -339,7 +339,7 @@ export default function HomePage() {
               <CardHeader>
                 <div className="flex justify-between items-center mb-4">
                   <Badge className="bg-lime-400/20 text-lime-400 border-lime-400/30">Beginner to Advanced</Badge>
-                  <span className="text-3xl font-black text-lime-400">$4,999</span>
+                  <span className="text-3xl font-black text-lime-400">$50</span>
                 </div>
                 <CardTitle className="text-xl font-black uppercase tracking-wider text-white">
                   Full-Stack Development Bootcamp
@@ -386,7 +386,7 @@ export default function HomePage() {
               <CardHeader>
                 <div className="flex justify-between items-center mb-4">
                   <Badge className="bg-lime-400/20 text-lime-400 border-lime-400/30">Intermediate to Advanced</Badge>
-                  <span className="text-3xl font-black text-lime-400">$6,999</span>
+                  <span className="text-3xl font-black text-lime-400">$50</span>
                 </div>
                 <CardTitle className="text-xl font-black uppercase tracking-wider text-white">
                   AI/ML Engineering Program
@@ -429,7 +429,7 @@ export default function HomePage() {
               <CardHeader>
                 <div className="flex justify-between items-center mb-4">
                   <Badge className="bg-lime-400/20 text-lime-400 border-lime-400/30">Intermediate</Badge>
-                  <span className="text-3xl font-black text-lime-400">$3,999</span>
+                  <span className="text-3xl font-black text-lime-400">$50</span>
                 </div>
                 <CardTitle className="text-xl font-black uppercase tracking-wider text-white">
                   Cloud Architecture Certification
@@ -531,7 +531,7 @@ export default function HomePage() {
             <Button
               size="lg"
               variant="outline"
-              className="border-slate-900 text-slate-900 hover:bg-slate-900 hover:text-lime-400 font-bold text-lg px-8 py-6"
+              className="border-slate-900 text-lime-400 hover:bg-slate-800 hover:text-lime-400 font-bold text-lg px-8 py-6"
             >
               Download Brochure
             </Button>

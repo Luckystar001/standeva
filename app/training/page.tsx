@@ -46,7 +46,7 @@ export default function HomePage() {
               variant="outline"
               className="border-lime-400 text-lime-400 hover:bg-lime-400 hover:text-slate-900 font-bold text-lg px-8 py-6"
             >
-              Explore Events
+              Explore Courses
             </Button>
           </div>
         </div>
@@ -58,7 +58,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="text-slate-900">
               <div className="text-4xl md:text-5xl font-black mb-2">50K+</div>
-              <div className="text-lg font-semibold uppercase tracking-wider">Active Developers</div>
+              <div className="text-lg font-semibold uppercase tracking-wider">Active Learners</div>
             </div>
             <div className="text-slate-900">
               <div className="text-4xl md:text-5xl font-black mb-2">200+</div>
@@ -152,7 +152,7 @@ export default function HomePage() {
               Join a Career-Changing Bootcamp
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-8">
-              Our transformative training courses have helped thousands of students launch new careers in tech.
+              Our transformative training courses have helped students launch new careers in tech.
             </p>
 
             <div className="flex flex-wrap justify-center gap-6 mb-12">
@@ -323,7 +323,7 @@ export default function HomePage() {
               <CardHeader>
                 <Badge className="w-fit bg-lime-400 text-slate-900 mb-2">June 25, 2025</Badge>
                 <CardTitle className="text-2xl font-black uppercase tracking-wider ">
-                  Tech Networking Night
+                  Tech Networking Event
                 </CardTitle>
                 <CardDescription>
                   Connect with industry leaders, startup founders, and fellow developers in a relaxed networking

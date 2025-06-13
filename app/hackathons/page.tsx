@@ -62,7 +62,7 @@ export default function HackathonsPage() {
               <div className="absolute bottom-6 left-6 right-6">
                 <Badge className="bg-lime-400 text-slate-900 mb-4">Registration Open</Badge>
                 <h3 className="text-4xl font-black text-lime-400 mb-2 tracking-wider uppercase">
-                  Global Impact Hackathon 2025
+                  StandEvate 2025
                 </h3>
                 <p className="text-xl text-white">Building solutions for a sustainable future</p>
               </div>
@@ -94,8 +94,8 @@ export default function HackathonsPage() {
                 </h4>
                 <p className="text-slate-400 mb-4 leading-relaxed">
                   The Global Impact Hackathon 2025 brings together developers, designers, and innovators to create 
-                  solutions addressing critical global challenges. This year's focus is on sustainable development, 
-                  digital inclusion, and climate action.
+                  solutions addressing critical global challenges. This year's focus is on digital maternal health support, 
+                  data driven food security and combating digital misinformation.
                 </p>
                 <p className="text-slate-400 leading-relaxed">
                   Teams will have two weeks to develop their projects, with mentorship sessions, workshops, and 
@@ -373,20 +373,15 @@ export default function HackathonsPage() {
                 
                 <div>
                   <Label htmlFor="projectIdea" className="text-lime-400 font-semibold uppercase tracking-wider">
-                    Brief Project Idea 
+                    Solution Pitch (max of 2 pages pdf)
                   </Label>
-                  <Textarea
-                    id="projectIdea"
-                    placeholder="Share a brief description of your project idea"
-                    className="bg-slate-900/60 border-lime-400/30 text-white placeholder:text-slate-400 focus:border-lime-400"
-                    rows={4}
-                  />
-                </div>
-                
-                  <main className="p-8">
+                  <main className="p-4">
       <FileUploadSection />
     </main>
-                <Button size="lg" className="w-full bg-lime-400 hover:bg-lime-500 text-slate-900 font-bold text-lg py-6">
+           
+                </div>
+                
+                     <Button size="lg" className="w-full bg-lime-400 hover:bg-lime-500 text-slate-900 font-bold text-lg py-6">
                   Register Now
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
